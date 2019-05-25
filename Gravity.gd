@@ -26,9 +26,9 @@ func _physics_process(delta):
 	# Create forces
 	var force = Vector2(0, GRAVITY)
 	
-	var walk_left = Input.is_action_pressed("move_left")
-	var walk_right = Input.is_action_pressed("move_right")
-	var jump = Input.is_action_pressed("jump")
+	var walk_left = Input.is_action_pressed("ui_left")
+	var walk_right = Input.is_action_pressed("ui_right")
+	var jump = Input.is_action_pressed("ui_up")
 	
 	var stop = true
 	
@@ -71,4 +71,3 @@ func _physics_process(delta):
 	
 	on_air_time += delta
 	prev_jump_pressed = jump
-	
