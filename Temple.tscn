@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://floor 1.png" type="Texture" id=1]
 [ext_resource path="res://platform1.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://platform4.tscn" type="PackedScene" id=6]
 [ext_resource path="res://platform5.tscn" type="PackedScene" id=7]
 [ext_resource path="res://platform6.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Character.tscn" type="PackedScene" id=9]
 
 [node name="Node2D" type="Node2D"]
 
@@ -105,3 +106,6 @@ scale = Vector2( 1.85, 0.38 )
 [node name="Node2D3" parent="floor 2" instance=ExtResource( 8 )]
 position = Vector2( -611.494, -271.51 )
 scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D" parent="." instance=ExtResource( 9 )]
+position = Vector2( 5.20065, 825.902 )
