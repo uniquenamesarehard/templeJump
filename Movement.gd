@@ -6,9 +6,11 @@ const SPEED = 200
 const JUMP_HEIGHT = -500
 
 var score = 0
-
 var motion = Vector2()
 func _physics_process(delta):
+	
+	var LabelNode = get_parent().get_parent().get_node("Scene Counter/UI/Control/RichTextLabel")
+	LabelNode.text = str(score)
 	motion.y += GRAVITY
 	if Input.is_action_pressed("ui_right"):
 		motion.x = SPEED
@@ -24,7 +26,7 @@ func _physics_process(delta):
 	
 
 
-func _on_coin_body_entered(body):
+func _on_Coin_body_entered(body):
 	score+=1
 	print(score)
 	pass # Replace with function body.
