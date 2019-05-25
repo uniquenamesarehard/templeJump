@@ -80,7 +80,7 @@ position = Vector2( -1417.47, 106.539 )
 scale = Vector2( 1.85, 0.38 )
 
 [node name="Node2D(3)11" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+position = Vector2( 1343.01, 106.451 )
 scale = Vector2( 1.85, 0.38 )
 
 [node name="Node2D3" parent="floor 1" instance=ExtResource( 4 )]
