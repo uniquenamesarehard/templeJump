@@ -28,59 +28,47 @@ position = Vector2( -1417.47, 106.539 )
 scale = Vector2( 1.85, 0.38 )
 
 [node name="Node2D(1)" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+position = Vector2( -1145.43, 106.548 )
 scale = Vector2( 1.85, 0.38 )
 
 [node name="Node2D(2)" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+position = Vector2( -863.605, 106.311 )
 scale = Vector2( 1.85, 0.38 )
 
 [node name="Node2D(3)" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+position = Vector2( -591.689, 106.355 )
 scale = Vector2( 1.85, 0.38 )
 
-[node name="Node2D(3)2" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+[node name="Node2D(4)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -319.41, 106.377 )
 scale = Vector2( 1.85, 0.38 )
 
-[node name="Node2D(3)3" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+[node name="Node2D(5)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -37.6992, 106.216 )
 scale = Vector2( 1.85, 0.38 )
 
-[node name="Node2D(3)4" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+[node name="Node2D(6)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 234.453, 106.184 )
 scale = Vector2( 1.85, 0.38 )
 
-[node name="Node2D(3)5" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+[node name="Node2D(7)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 516.454, 106.458 )
 scale = Vector2( 1.85, 0.38 )
 
-[node name="Node2D(3)6" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+[node name="Node2D(8)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 788.53, 106.35 )
 scale = Vector2( 1.85, 0.38 )
 
-[node name="Node2D(3)7" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
+[node name="Node2D(9)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 1060.73, 106.445 )
 scale = Vector2( 1.85, 0.38 )
 
-[node name="Node2D(3)8" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
-scale = Vector2( 1.85, 0.38 )
-
-[node name="Node2D2" parent="floor 1/Level1" instance=ExtResource( 3 )]
-position = Vector2( -639.628, -82.5649 )
-scale = Vector2( 1.85, 0.38 )
-
-[node name="Node2D(3)9" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
-scale = Vector2( 1.85, 0.38 )
-
-[node name="Node2D(3)10" parent="floor 1/Level1" instance=ExtResource( 2 )]
-position = Vector2( -1417.47, 106.539 )
-scale = Vector2( 1.85, 0.38 )
-
-[node name="Node2D(3)11" parent="floor 1/Level1" instance=ExtResource( 2 )]
+[node name="Node2D(10)" parent="floor 1/Level1" instance=ExtResource( 2 )]
 position = Vector2( 1343.01, 106.451 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D2" parent="floor 1" instance=ExtResource( 3 )]
+position = Vector2( -639.629, -82.5649 )
 scale = Vector2( 1.85, 0.38 )
 
 [node name="Node2D3" parent="floor 1" instance=ExtResource( 4 )]
@@ -108,4 +96,4 @@ position = Vector2( -611.494, -271.51 )
 scale = Vector2( 1.85, 0.38 )
 
 [node name="Node2D" parent="." instance=ExtResource( 9 )]
-position = Vector2( 5.20065, 825.902 )
+position = Vector2( 1.28736, 904.516 )
