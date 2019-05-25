@@ -5,6 +5,8 @@ const GRAVITY = 20
 const SPEED = 200
 const JUMP_HEIGHT = -500
 
+var score = 0
+
 var motion = Vector2()
 func _physics_process(delta):
 	motion.y += GRAVITY
@@ -19,3 +21,10 @@ func _physics_process(delta):
 			motion.y = JUMP_HEIGHT
 	motion = move_and_slide(motion, UP)
 	pass
+	
+
+
+func _on_coin_body_entered(body):
+	score+=1
+	print(score)
+	pass # Replace with function body.
