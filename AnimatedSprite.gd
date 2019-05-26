@@ -1,13 +1,16 @@
 extends AnimatedSprite
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+var num_frames
+var current_frame = 0
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+    set_process_input(true)
+    num_frames = get_sprite_frames().get_frame_count("anim_name")
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _input(event):
+	if Input.is_action_pressed("ui_left"):
+        current_frame = (current_frame + 1) % num_frames
+        set_frame(current_frame)
+	if Input.is_action_pressed("ui_right"):
+		current_frame = (current_frame -1) % num_frames
+		set_frame(current_frame)
