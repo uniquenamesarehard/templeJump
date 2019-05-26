@@ -29,13 +29,17 @@ var motion = Vector2()
 
 var vine_on = false;
 var coins = 0
+var god_mode = false
 
 func _physics_process(delta):
 	
 	
 	#Code that updates coins text
 	var LabelNode = get_parent().get_parent().get_node("Scene Counter/UI/Control/RichTextLabel")
-	LabelNode.text = str(coins)
+	LabelNode.text = "Get 50 coins for a surprise!\n" + str(coins)
+	
+	if coins >= 50:
+		god_mode = true
 	
 	# Create forces
 	var force = Vector2(0, GRAVITY)
@@ -95,20 +99,34 @@ func _physics_process(delta):
 	
 	#movement code
 	
-
-	if Input.is_action_pressed("ui_right"):
-		motion.x = SPEED
-		if Input.is_action_just_pressed("ui_up") and is_on_floor():
+	if god_mode:
+		if Input.is_action_pressed("ui_right"):
+			motion.x = SPEED
+		if Input.is_action_just_pressed("ui_up"):
 			motion.y = JUMP_HEIGHT
 	elif Input.is_action_pressed("ui_left"):
 		motion.x = -SPEED
-		if Input.is_action_just_pressed("ui_up") and is_on_floor():
+		if Input.is_action_just_pressed("ui_up"):
 			motion.y = JUMP_HEIGHT
 	else:
 		motion.x = 0
 	if is_on_floor():
 		if Input.is_action_just_pressed("ui_up"):
 			motion.y = JUMP_HEIGHT
+	else:
+		if Input.is_action_pressed("ui_right"):
+			motion.x = SPEED
+			if Input.is_action_just_pressed("ui_up") and is_on_floor():
+				motion.y = JUMP_HEIGHT
+		elif Input.is_action_pressed("ui_left"):
+			motion.x = -SPEED
+			if Input.is_action_just_pressed("ui_up") and is_on_floor():
+				motion.y = JUMP_HEIGHT
+		else:
+			motion.x = 0
+		if is_on_floor():
+			if Input.is_action_just_pressed("ui_up"):
+				motion.y = JUMP_HEIGHT
 			
 	
 	#Ladder code
