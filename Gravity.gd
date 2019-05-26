@@ -102,21 +102,18 @@ func _physics_process(delta):
 	if god_mode:
 		if Input.is_action_pressed("ui_right"):
 			motion.x = SPEED
-			if Input.is_action_just_pressed("ui_up"):
-				motion.y = JUMP_HEIGHT
-		elif Input.is_action_pressed("ui_left"):
-			motion.x = -SPEED
-			if Input.is_action_just_pressed("ui_up"):
-				motion.y = JUMP_HEIGHT
-		else:
-			motion.x = 0
-		if is_on_floor():
-			if Input.is_action_just_pressed("ui_up"):
-				motion.y = JUMP_HEIGHT
+		if Input.is_action_just_pressed("ui_up"):
+			motion.y = JUMP_HEIGHT
+	elif Input.is_action_pressed("ui_left"):
+		motion.x = -SPEED
+		if Input.is_action_just_pressed("ui_up"):
+			motion.y = JUMP_HEIGHT
 	else:
-		if is_on_floor():
-			if Input.is_action_just_pressed("ui_up"):
-				motion.y = JUMP_HEIGHT
+		motion.x = 0
+	if is_on_floor():
+		if Input.is_action_just_pressed("ui_up"):
+			motion.y = JUMP_HEIGHT
+	else:
 		if Input.is_action_pressed("ui_right"):
 			motion.x = SPEED
 			if Input.is_action_just_pressed("ui_up") and is_on_floor():
@@ -127,6 +124,9 @@ func _physics_process(delta):
 				motion.y = JUMP_HEIGHT
 		else:
 			motion.x = 0
+		if is_on_floor():
+			if Input.is_action_just_pressed("ui_up"):
+				motion.y = JUMP_HEIGHT
 			
 	
 	#Ladder code
