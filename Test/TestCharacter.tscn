@@ -22,9 +22,6 @@ __meta__ = {
 position = Vector2( -17.6964, -35.6116 )
 scale = Vector2( 0.407536, 0.407536 )
 texture = ExtResource( 2 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
 position = Vector2( -17.6933, -35.6553 )

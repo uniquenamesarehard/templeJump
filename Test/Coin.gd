@@ -9,13 +9,14 @@ extends Area2D
 #	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+
 #func _process(delta):
+	
 #	pass
 
 
 func _on_Coin_body_entered(body):
 #	hide()
 	queue_free()
-	print("meow")
 	#emit_signal("coinCollected")
 	pass # Replace with function body.
