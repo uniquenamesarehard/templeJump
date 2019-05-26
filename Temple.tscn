@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=2]
+[gd_scene load_steps=53 format=2]
 
 [ext_resource path="res://floor 1.png" type="Texture" id=1]
 [ext_resource path="res://floor 2.png" type="Texture" id=2]
@@ -46,6 +46,7 @@
 [ext_resource path="res://lizard.png" type="Texture" id=44]
 [ext_resource path="res://floor 12.png" type="Texture" id=45]
 [ext_resource path="res://vine.png" type="Texture" id=46]
+[ext_resource path="res://Untitled-1.png" type="Texture" id=47]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 32.2448
@@ -1423,7 +1424,6 @@ position = Vector2( 277.078, 327.585 )
 position = Vector2( 39.5464, 327.358 )
 
 [node name="Collectables" type="Node" parent="."]
-editor/display_folded = true
 
 [node name="Coin" type="Area2D" parent="Collectables"]
 position = Vector2( 408.722, 902.916 )
@@ -1881,18 +1881,6 @@ texture = ExtResource( 41 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Collectables/Coin35"]
 shape = SubResource( 1 )
 
-[node name="Coin36" type="Area2D" parent="Collectables"]
-position = Vector2( 1305.66, -3277.17 )
-script = ExtResource( 40 )
-
-[node name="Sprite" type="Sprite" parent="Collectables/Coin36"]
-position = Vector2( 0.147827, 0.15625 )
-scale = Vector2( 0.214798, 0.214798 )
-texture = ExtResource( 41 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Collectables/Coin36"]
-shape = SubResource( 1 )
-
 [node name="Coin37" type="Area2D" parent="Collectables"]
 position = Vector2( 381.297, -3150.64 )
 script = ExtResource( 40 )
@@ -2133,18 +2121,6 @@ texture = ExtResource( 41 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Collectables/Coin29"]
 shape = SubResource( 1 )
 
-[node name="Coin30" type="Area2D" parent="Collectables"]
-position = Vector2( 435.774, -1618.23 )
-script = ExtResource( 40 )
-
-[node name="Sprite" type="Sprite" parent="Collectables/Coin30"]
-position = Vector2( 0.147827, 0.15625 )
-scale = Vector2( 0.214798, 0.214798 )
-texture = ExtResource( 41 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Collectables/Coin30"]
-shape = SubResource( 1 )
-
 [node name="Player" type="Node" parent="."]
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="Player"]
@@ -2197,6 +2173,7 @@ margin_bottom = 40.0
 [node name="RichTextLabel" type="RichTextLabel" parent="Scene Counter/UI/Control"]
 margin_right = 40.0
 margin_bottom = 40.0
+rect_scale = Vector2( 2.92, 2.84 )
 text = "0"
 
 [node name="floor 12" type="Sprite" parent="."]
@@ -3239,6 +3216,10 @@ position = Vector2( 20.4479, 15.9922 )
 rotation = 3.14159
 shape = SubResource( 5 )
 one_way_collision = true
+
+[node name="youWin" type="Sprite" parent="Endgame"]
+position = Vector2( 1005.72, -4879.73 )
+texture = ExtResource( 47 )
 [connection signal="body_entered" from="Collectables/Coin" to="Collectables/Coin" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin54" to="Collectables/Coin54" method="_on_Coin_body_entered"]
@@ -3267,44 +3248,44 @@ one_way_collision = true
 [connection signal="body_entered" from="Collectables/Coin6" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin7" to="Collectables/Coin7" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin7" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin8" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin8" to="Collectables/Coin8" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin9" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin8" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin9" to="Collectables/Coin9" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin10" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin9" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin10" to="Collectables/Coin10" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin11" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin10" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin11" to="Collectables/Coin11" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin12" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin11" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin12" to="Collectables/Coin12" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin13" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin12" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin13" to="Collectables/Coin13" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin14" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin13" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin14" to="Collectables/Coin14" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin15" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin14" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin15" to="Collectables/Coin15" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin16" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin15" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin16" to="Collectables/Coin16" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin17" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin16" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin17" to="Collectables/Coin17" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin18" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin17" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin18" to="Collectables/Coin18" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin19" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin18" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin19" to="Collectables/Coin19" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin20" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin19" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin20" to="Collectables/Coin20" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin21" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin20" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin21" to="Collectables/Coin21" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin22" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin21" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin22" to="Collectables/Coin22" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin23" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin22" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin23" to="Collectables/Coin23" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin24" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin23" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin24" to="Collectables/Coin24" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin25" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin24" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin25" to="Collectables/Coin25" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin26" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin25" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin26" to="Collectables/Coin26" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin26" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin31" to="Collectables/Coin31" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin31" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin32" to="Collectables/Coin32" method="_on_Coin_body_entered"]
@@ -3315,8 +3296,6 @@ one_way_collision = true
 [connection signal="body_entered" from="Collectables/Coin34" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin35" to="Collectables/Coin35" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin35" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin36" to="Collectables/Coin36" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin36" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin37" to="Collectables/Coin37" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin37" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin38" to="Collectables/Coin38" method="_on_Coin_body_entered"]
@@ -3347,18 +3326,16 @@ one_way_collision = true
 [connection signal="body_entered" from="Collectables/Coin50" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin51" to="Collectables/Coin51" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin51" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin52" to="Collectables/Coin52" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin52" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin53" to="Collectables/Coin53" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin52" to="Collectables/Coin52" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin53" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin27" to="Collectables/Coin27" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin53" to="Collectables/Coin53" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin27" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin28" to="Collectables/Coin28" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin27" to="Collectables/Coin27" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin28" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin29" to="Collectables/Coin29" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin28" to="Collectables/Coin28" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin29" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin30" to="Collectables/Coin30" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Collectables/Coin30" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin29" to="Collectables/Coin29" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Other Blocks/Vine" to="Player/KinematicBody2D" method="_on_Vine_body_entered"]
 [connection signal="body_exited" from="Other Blocks/Vine" to="Player/KinematicBody2D" method="_on_Vine_body_exited"]
 [connection signal="body_entered" from="Other Blocks/Vine2" to="Player/KinematicBody2D" method="_on_Vine_body_entered"]
@@ -3563,3 +3540,4 @@ one_way_collision = true
 [connection signal="body_exited" from="Other Blocks/Vine98" to="Player/KinematicBody2D" method="_on_Vine_body_exited"]
 [connection signal="body_entered" from="Other Blocks/Vine51" to="Player/KinematicBody2D" method="_on_Vine_body_entered"]
 [connection signal="body_exited" from="Other Blocks/Vine51" to="Player/KinematicBody2D" method="_on_Vine_body_exited"]
+[connection signal="body_entered" from="Endgame/Area2D" to="Player/KinematicBody2D" method="_on_Area2D_body_entered"]

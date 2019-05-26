@@ -21,6 +21,5 @@ func _on_coin_body_entered(body):
 
 
 func _on_Coin_body_entered(body):
-	
 	queue_free()
 	pass # Replace with function body.

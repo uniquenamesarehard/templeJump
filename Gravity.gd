@@ -36,7 +36,10 @@ func _physics_process(delta):
 	
 	#Code that updates coins text
 	var LabelNode = get_parent().get_parent().get_node("Scene Counter/UI/Control/RichTextLabel")
-	LabelNode.text = "Get 50 coins for a surprise!\n" + str(coins)
+	if (coins < 50):
+		LabelNode.text = "Coins: " + str(coins)
+	else:
+		LabelNode.text = "God Mode Activated!\n"+ str(coins)
 	
 	if coins >= 50:
 		god_mode = true
@@ -161,4 +164,9 @@ func _on_Vine_body_entered(body):
 
 func _on_Vine_body_exited(body):
 	vine_on = false
+	pass # Replace with function body.
+
+func _on_Area2D_body_entered(body):
+	var youWin = get_parent().get_parent().get_node("Endgame/youWin")
+	youWin.show()
 	pass # Replace with function body.
