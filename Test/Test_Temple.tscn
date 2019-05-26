@@ -30,6 +30,7 @@ __meta__ = {
 }
 
 [node name="Level1" type="Node2D" parent="floor 1"]
+editor/display_folded = true
 
 [node name="Node2D" parent="floor 1/Level1" instance=ExtResource( 2 )]
 position = Vector2( -1417.47, 106.539 )

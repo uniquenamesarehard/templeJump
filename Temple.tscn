@@ -1,3 +1,324 @@
-[gd_scene format=2]
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://floor 1.png" type="Texture" id=1]
+[ext_resource path="res://platform1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://platform2.tscn" type="PackedScene" id=3]
+[ext_resource path="res://platform3.tscn" type="PackedScene" id=4]
+[ext_resource path="res://floor 2.png" type="Texture" id=5]
+[ext_resource path="res://platform4.tscn" type="PackedScene" id=6]
+[ext_resource path="res://platform5.tscn" type="PackedScene" id=7]
+[ext_resource path="res://platform6.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Coin.gd" type="Script" id=9]
+[ext_resource path="res://icon.png" type="Texture" id=10]
+[ext_resource path="res://Gravity.gd" type="Script" id=11]
+[ext_resource path="res://lizardbase.png" type="Texture" id=12]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 32.2448
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 29.887, 59.2545 )
 
 [node name="Node2D" type="Node2D"]
+
+[node name="floor 1" type="Sprite" parent="."]
+position = Vector2( 989.964, 890.005 )
+scale = Vector2( 0.670469, 0.670211 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Level1" type="Node2D" parent="floor 1"]
+editor/display_folded = true
+
+[node name="Node2D" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -1417.47, 106.539 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(1)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -1145.43, 106.548 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(2)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -863.605, 106.311 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(3)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -591.689, 106.355 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(4)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -319.41, 106.377 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(5)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -37.6992, 106.216 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(6)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 234.453, 106.184 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(7)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 516.454, 106.458 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(8)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 788.53, 106.35 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(9)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 1060.73, 106.445 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(10)" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 1343.01, 106.451 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D(10)2" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -10.3401, 285.229 )
+scale = Vector2( 107.84, 0.08 )
+
+[node name="Level2" type="Node2D" parent="floor 1"]
+editor/display_folded = true
+
+[node name="Node2D2" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( -639.628, -82.5649 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D4" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( 1484.71, -82.5474 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D5" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( 1130.63, -82.7258 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D6" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( 776.564, -82.8027 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D7" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( 422.386, -82.6819 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D8" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( 68.4625, -82.4685 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D9" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( -285.575, -82.8154 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D10" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( -993.478, -82.6348 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D3" parent="floor 1/Level2" instance=ExtResource( 3 )]
+position = Vector2( -1347.57, -82.5581 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Level3" type="Node2D" parent="floor 1"]
+editor/display_folded = true
+
+[node name="Node2D3" parent="floor 1/Level3" instance=ExtResource( 4 )]
+position = Vector2( -892.675, -271.384 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D4" parent="floor 1/Level3" instance=ExtResource( 4 )]
+position = Vector2( -184.155, -271.409 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D5" parent="floor 1/Level3" instance=ExtResource( 4 )]
+position = Vector2( 169.592, -271.092 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D6" parent="floor 1/Level3" instance=ExtResource( 4 )]
+position = Vector2( 523.707, -271.384 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D7" parent="floor 1/Level3" instance=ExtResource( 4 )]
+position = Vector2( 877.839, -271.195 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D8" parent="floor 1/Level3" instance=ExtResource( 4 )]
+position = Vector2( 1231.42, -271.63 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D9" parent="floor 1/Level3" instance=ExtResource( 4 )]
+position = Vector2( -538.238, -271.736 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D10" parent="floor 1/Level3" instance=ExtResource( 4 )]
+position = Vector2( -1246.03, -272.084 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="floor 2" type="Sprite" parent="."]
+position = Vector2( 990.047, 509.902 )
+scale = Vector2( 0.670506, 0.670506 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Level4" type="Node2D" parent="floor 2"]
+editor/display_folded = true
+
+[node name="Node2D" parent="floor 2/Level4" instance=ExtResource( 6 )]
+position = Vector2( -318.382, 106.483 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D2" parent="floor 2/Level4" instance=ExtResource( 6 )]
+position = Vector2( 1197.56, 106.508 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D3" parent="floor 2/Level4" instance=ExtResource( 6 )]
+position = Vector2( 963.606, 106.369 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D4" parent="floor 2/Level4" instance=ExtResource( 6 )]
+position = Vector2( 767.743, 106.22 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D5" parent="floor 2/Level4" instance=ExtResource( 6 )]
+position = Vector2( 373.668, 106.646 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D6" parent="floor 2/Level4" instance=ExtResource( 6 )]
+position = Vector2( 120.742, 106.455 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D7" parent="floor 2/Level4" instance=ExtResource( 6 )]
+position = Vector2( -844.312, 106.422 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D8" parent="floor 2/Level4" instance=ExtResource( 6 )]
+position = Vector2( -1198.61, 106.473 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Level5" type="Node2D" parent="floor 2"]
+editor/display_folded = true
+
+[node name="Node2D2" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( -225.526, -82.4969 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D3" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( 1421.15, -82.2424 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D4" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( 829.333, -82.4235 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D5" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( 607.737, -82.8855 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D6" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( 304.519, -82.5247 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D7" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( -39.4957, -82.7279 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D8" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( -490.411, -82.1511 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D9" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( -709.737, -82.6414 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D10" parent="floor 2/Level5" instance=ExtResource( 7 )]
+position = Vector2( -1417.65, -82.8966 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Level6" type="Node2D" parent="floor 2"]
+editor/display_folded = true
+
+[node name="Node2D3" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( -611.614, -271.644 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D4" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( 1295.01, -271.945 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D5" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( 1068.31, -271.076 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D6" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( 728.495, -271.246 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D7" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( -93.207, -271.51 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D8" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( 443.722, -271.414 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D9" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( 141.864, -271.535 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D10" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( -374.648, -271.371 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D11" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( -879.109, -271.51 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D12" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( -1063.33, -271.91 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Node2D13" parent="floor 2/Level6" instance=ExtResource( 8 )]
+position = Vector2( -1418.07, -272.248 )
+scale = Vector2( 1.85, 0.38 )
+
+[node name="Collectables" type="Node" parent="."]
+
+[node name="Coin" type="Area2D" parent="Collectables"]
+position = Vector2( 408.722, 902.916 )
+script = ExtResource( 9 )
+
+[node name="Sprite" type="Sprite" parent="Collectables/Coin"]
+texture = ExtResource( 10 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Collectables/Coin"]
+shape = SubResource( 1 )
+
+[node name="Player" type="Node" parent="."]
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="Player"]
+position = Vector2( 23.2263, 913.097 )
+scale = Vector2( 0.5, 0.5 )
+script = ExtResource( 11 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/KinematicBody2D"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Player/KinematicBody2D"]
+texture = ExtResource( 12 )
+
+[node name="Scene Counter" type="Node" parent="."]
+
+[node name="UI" type="CanvasLayer" parent="Scene Counter"]
+
+[node name="Control" type="Control" parent="Scene Counter/UI"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Scene Counter/UI/Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+text = "0"
+[connection signal="body_entered" from="Collectables/Coin" to="Collectables/Coin" method="_on_Coin_body_entered"]
+[connection signal="body_entered" from="Collectables/Coin" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]

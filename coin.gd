@@ -18,3 +18,9 @@ func _on_coin_body_entered(body):
 	queue_free()
 	#emit_signal("coinCollected")
 	pass # Replace with function body.
+
+
+func _on_Coin_body_entered(body):
+	
+	queue_free()
+	pass # Replace with function body.

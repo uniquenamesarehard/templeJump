@@ -27,7 +27,13 @@ var prev_jump_pressed = false
 
 var motion = Vector2()
 
+var coins = 0
+
 func _physics_process(delta):
+	#Code that updates coins text
+	var LabelNode = get_parent().get_parent().get_node("Scene Counter/UI/Control/RichTextLabel")
+	LabelNode.text = str(coins)
+	
 	# Create forces
 	var force = Vector2(0, GRAVITY)
 	motion.y += GRAVITY
@@ -98,3 +104,9 @@ func _physics_process(delta):
 	motion = move_and_slide(motion, UP)
 	pass
 	
+
+#Coin code
+func _on_Coin_body_entered(body):
+	coins+=1
+	print(coins)
+	pass # Replace with function body.
