@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://vine.png" type="Texture" id=1]
+
+[node name="vine" type="Sprite"]
+position = Vector2( 1115.54, -4960.65 )
+texture = ExtResource( 1 )

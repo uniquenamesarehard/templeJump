@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=2]
+[gd_scene load_steps=46 format=2]
 
 [ext_resource path="res://floor 1.png" type="Texture" id=1]
 [ext_resource path="res://floor 2.png" type="Texture" id=2]
@@ -27,26 +27,28 @@
 [ext_resource path="res://platform22.tscn" type="PackedScene" id=25]
 [ext_resource path="res://platform23.tscn" type="PackedScene" id=26]
 [ext_resource path="res://platform24.tscn" type="PackedScene" id=27]
-[ext_resource path="res://platform6.tscn" type="PackedScene" id=28]
-[ext_resource path="res://platform1.tscn" type="PackedScene" id=29]
-[ext_resource path="res://platform2.tscn" type="PackedScene" id=30]
-[ext_resource path="res://platform3.tscn" type="PackedScene" id=31]
-[ext_resource path="res://platform4.tscn" type="PackedScene" id=32]
-[ext_resource path="res://platform5.tscn" type="PackedScene" id=33]
-[ext_resource path="res://Coin.gd" type="Script" id=34]
-[ext_resource path="res://icon.png" type="Texture" id=35]
-[ext_resource path="res://Gravity.gd" type="Script" id=36]
-[ext_resource path="res://lizardbase.png" type="Texture" id=37]
-[ext_resource path="res://floor 12.png" type="Texture" id=38]
+[ext_resource path="res://platform25.tscn" type="PackedScene" id=28]
+[ext_resource path="res://platform26.tscn" type="PackedScene" id=29]
+[ext_resource path="res://platform27.tscn" type="PackedScene" id=30]
+[ext_resource path="res://platform28.tscn" type="PackedScene" id=31]
+[ext_resource path="res://platform29.tscn" type="PackedScene" id=32]
+[ext_resource path="res://platform30.tscn" type="PackedScene" id=33]
+[ext_resource path="res://platform6.tscn" type="PackedScene" id=34]
+[ext_resource path="res://platform1.tscn" type="PackedScene" id=35]
+[ext_resource path="res://platform2.tscn" type="PackedScene" id=36]
+[ext_resource path="res://platform3.tscn" type="PackedScene" id=37]
+[ext_resource path="res://platform4.tscn" type="PackedScene" id=38]
+[ext_resource path="res://platform5.tscn" type="PackedScene" id=39]
+[ext_resource path="res://Coin.gd" type="Script" id=40]
+[ext_resource path="res://icon.png" type="Texture" id=41]
+[ext_resource path="res://Gravity.gd" type="Script" id=42]
+[ext_resource path="res://lizardbase.png" type="Texture" id=43]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 32.2448
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 29.887, 59.2545 )
-
-[sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 31.7562, 31.732 )
 
 [node name="Node2D" type="Node2D"]
 
@@ -630,1066 +632,1190 @@ scale = Vector2( 0.93, 0.25 )
 position = Vector2( 1348.07, -4231.98 )
 scale = Vector2( 0.93, 0.25 )
 
+[node name="15-1" parent="Special Floors" instance=ExtResource( 28 )]
+position = Vector2( 620.89, -4358.88 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-2" parent="Special Floors" instance=ExtResource( 28 )]
+position = Vector2( 735.135, -4359.22 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-3" parent="Special Floors" instance=ExtResource( 28 )]
+position = Vector2( 854.827, -4362.45 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-4" parent="Special Floors" instance=ExtResource( 28 )]
+position = Vector2( 978.436, -4359.05 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-5" parent="Special Floors" instance=ExtResource( 28 )]
+position = Vector2( 1089.79, -4358.71 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-6" parent="Special Floors" instance=ExtResource( 28 )]
+position = Vector2( 1212.88, -4358.88 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-7" parent="Special Floors" instance=ExtResource( 29 )]
+position = Vector2( 661.769, -4485.89 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-8" parent="Special Floors" instance=ExtResource( 29 )]
+position = Vector2( 923.357, -4485.28 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-9" parent="Special Floors" instance=ExtResource( 29 )]
+position = Vector2( 1024.89, -4485.48 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-10" parent="Special Floors" instance=ExtResource( 29 )]
+position = Vector2( 1166.59, -4485.89 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-11" parent="Special Floors" instance=ExtResource( 29 )]
+position = Vector2( 1300.96, -4485.28 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-12" parent="Special Floors" instance=ExtResource( 30 )]
+position = Vector2( 621.535, -4612.41 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-13" parent="Special Floors" instance=ExtResource( 30 )]
+position = Vector2( 773.207, -4612.59 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-14" parent="Special Floors" instance=ExtResource( 30 )]
+position = Vector2( 868.784, -4612.59 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-15" parent="Special Floors" instance=ExtResource( 30 )]
+position = Vector2( 968.291, -4612.41 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-16" parent="Special Floors" instance=ExtResource( 30 )]
+position = Vector2( 1095.85, -4612.23 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-17" parent="Special Floors" instance=ExtResource( 30 )]
+position = Vector2( 1218.04, -4612.41 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="15-18" parent="Special Floors" instance=ExtResource( 30 )]
+position = Vector2( 1329.52, -4612.23 )
+scale = Vector2( 0.865, 0.25 )
+
+[node name="16-1" parent="Special Floors" instance=ExtResource( 31 )]
+position = Vector2( 799.291, -4739.34 )
+scale = Vector2( 0.76, 0.25 )
+
+[node name="16-2" parent="Special Floors" instance=ExtResource( 31 )]
+position = Vector2( 962.28, -4739.34 )
+scale = Vector2( 0.76, 0.25 )
+
+[node name="16-3" parent="Special Floors" instance=ExtResource( 31 )]
+position = Vector2( 1096.96, -4739.34 )
+scale = Vector2( 0.76, 0.25 )
+
+[node name="16-4" parent="Special Floors" instance=ExtResource( 31 )]
+position = Vector2( 1238.11, -4739.34 )
+scale = Vector2( 0.76, 0.25 )
+
+[node name="16-5" parent="Special Floors" instance=ExtResource( 32 )]
+position = Vector2( 717.116, -4865.82 )
+scale = Vector2( 0.8, 0.25 )
+
+[node name="16-6" parent="Special Floors" instance=ExtResource( 32 )]
+position = Vector2( 873.153, -4866.03 )
+scale = Vector2( 0.8, 0.25 )
+
+[node name="16-7" parent="Special Floors" instance=ExtResource( 32 )]
+position = Vector2( 1026.07, -4866.24 )
+scale = Vector2( 0.8, 0.25 )
+
+[node name="16-8" parent="Special Floors" instance=ExtResource( 32 )]
+position = Vector2( 1165.44, -4866.03 )
+scale = Vector2( 0.8, 0.25 )
+
+[node name="16-9" parent="Special Floors" instance=ExtResource( 33 )]
+position = Vector2( 774.321, -4992.49 )
+scale = Vector2( 0.765, 0.25 )
+
+[node name="16-10" parent="Special Floors" instance=ExtResource( 33 )]
+position = Vector2( 889.204, -4992.49 )
+scale = Vector2( 0.765, 0.25 )
+
+[node name="16-11" parent="Special Floors" instance=ExtResource( 33 )]
+position = Vector2( 998.278, -4992.49 )
+scale = Vector2( 0.765, 0.25 )
+
+[node name="16-12" parent="Special Floors" instance=ExtResource( 33 )]
+position = Vector2( 1106.71, -4992.49 )
+scale = Vector2( 0.765, 0.25 )
+
+[node name="16-13" parent="Special Floors" instance=ExtResource( 33 )]
+position = Vector2( 1211.26, -4992.49 )
+scale = Vector2( 0.765, 0.25 )
+
 [node name="Platforms" type="Node2D" parent="."]
 editor/display_folded = true
 
-[node name="Node2D25" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D25" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1931.79, -2333.88 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D26" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D26" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1691.25, -2337.82 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D27" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D27" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1557.18, -2329.93 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D28" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D28" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1383.67, -2333.88 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D29" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D29" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1269.31, -2333.88 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D30" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D30" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1103.69, -2337.82 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D31" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D31" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 922.299, -2333.88 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D32" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D32" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 764.565, -2322.05 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D33" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D33" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 587.115, -2337.82 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D34" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D34" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 421.494, -2341.76 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D35" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D35" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 299.251, -2337.82 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D36" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D36" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 149.404, -2333.88 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D37" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D37" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1805.61, -2211.63 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D38" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D38" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1616.33, -2203.75 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D39" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D39" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1190.45, -2211.63 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D40" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D40" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1009.05, -2219.52 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D41" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D41" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 871.035, -2203.75 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D42" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D42" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 662.038, -2207.69 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D43" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D43" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 508.248, -2211.63 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D44" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D44" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 386.004, -2207.69 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D45" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D45" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 188.837, -2207.69 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D46" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D46" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 35.0467, -2211.63 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D47" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D47" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1856.87, -2085.45 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D48" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D48" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1482.25, -2077.56 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D49" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D49" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1300.86, -2085.45 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D50" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D50" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1123.41, -2081.5 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D51" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D51" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 922.299, -2085.45 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D52" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D52" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 725.132, -2081.5 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D53" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D53" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 330.798, -2085.45 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D54" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D54" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 74.4802, -2085.45 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D55" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D55" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1946.61, -1957.08 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D56" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D56" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1725.88, -1950.18 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D57" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D57" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1532.74, -1953.63 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D58" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D58" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1384.43, -1950.18 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D59" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D59" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1201.64, -1943.29 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D60" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D60" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1053.34, -1950.18 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D61" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D61" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 922.275, -1950.18 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D62" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D62" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 698.094, -1950.18 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D63" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D63" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 535.993, -1953.63 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D64" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D64" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 325.607, -1946.74 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D65" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D65" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 191.098, -1957.08 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D66" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D66" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 32.4462, -1957.08 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D67" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D67" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1822.45, -1822.57 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D68" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D68" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1663.8, -1826.02 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D69" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D69" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1460.31, -1822.57 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D70" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D70" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1322.35, -1826.02 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D71" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D71" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1160.25, -1822.57 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D72" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D72" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1005.05, -1822.57 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D73" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D73" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 767.073, -1826.02 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D74" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D74" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 615.319, -1822.57 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D75" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D75" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 442.871, -1829.47 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D76" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D76" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 97.9763, -1826.02 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D77" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D77" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1867.29, -1698.41 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D78" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D78" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1553.43, -1694.96 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D79" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D79" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1263.72, -1698.41 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D80" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D80" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1070.58, -1698.41 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D81" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D81" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 849.847, -1698.41 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D82" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D82" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 484.259, -1694.96 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D83" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D83" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 318.709, -1691.51 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D84" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D84" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 163.506, -1701.86 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D85" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D85" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1936.27, -1570.8 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D86" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D86" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1725.88, -1570.8 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D87" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D87" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1574.13, -1570.8 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D88" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D88" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1394.78, -1574.25 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D89" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D89" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1222.33, -1567.35 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D90" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D90" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1084.38, -1570.8 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D91" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D91" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 925.724, -1567.35 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D92" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D92" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 798.113, -1574.25 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D93" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D93" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 656.706, -1567.35 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D94" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D94" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 449.769, -1574.25 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D95" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D95" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 277.322, -1577.7 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D96" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D96" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 108.323, -1570.8 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D97" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D97" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1939.72, -1315.58 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D98" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D98" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1784.51, -1443.19 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D99" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D99" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1487.9, -1439.74 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D100" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D100" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1005.05, -1443.19 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D101" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D101" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 604.972, -1443.19 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D102" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D102" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 366.994, -1443.19 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D103" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D103" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 187.649, -1446.64 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D104" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D104" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1332.7, -1443.19 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D105" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D105" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 125.374, 199.161 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D106" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D106" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 146.503, 241.292 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D107" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D107" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1624.48, -1310.87 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D108" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D108" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1447.58, -1322.29 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D109" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D109" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1196.5, -1316.58 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D110" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D110" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 871.227, -1322.29 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D111" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D111" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 688.619, -1316.58 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D112" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D112" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 511.119, -1320 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D113" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D113" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 294.598, -1314.3 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D114" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D114" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 78.0762, -1314.3 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D115" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D115" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1833.04, -1194.65 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D116" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D116" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1684.89, -1188.95 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D117" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D117" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1565.24, -1200.35 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D118" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D118" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1388.6, -1194.65 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D119" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D119" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1217.66, -1188.95 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D120" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D120" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1063.82, -1188.95 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D121" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D121" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 875.787, -1188.95 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D122" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D122" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 721.942, -1200.35 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D123" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D123" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 573.796, -1194.65 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D124" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D124" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 431.348, -1194.65 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D125" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D125" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 300.296, -1188.95 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D126" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D126" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 38.1907, -1188.95 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D127" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D127" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1952.7, -1063.59 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D128" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D128" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1798.85, -1063.59 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D129" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D129" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1588.03, -1063.59 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D130" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D130" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1474.07, -1063.59 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D131" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D131" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1308.83, -1063.59 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D132" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D132" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1115.1, -1063.59 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D133" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D133" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 978.349, -1069.29 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D134" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D134" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 796.016, -1057.9 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D135" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D135" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 362.973, -1069.29 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D136" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D136" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 180.639, -1069.29 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D137" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D137" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1912.81, -938.24 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D138" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D138" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1650.71, -943.938 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D139" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D139" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1268.94, -932.542 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D140" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D140" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1046.72, -943.938 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D141" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D141" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 852.995, -932.542 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D142" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D142" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 687.755, -943.938 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D143" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D143" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 505.421, -932.542 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D144" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D144" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 129.358, -943.938 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D145" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D145" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1947, -812.886 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D146" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D146" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1787.46, -807.188 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D147" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D147" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1679.19, -812.886 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D148" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D148" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1451.28, -807.188 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D149" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D149" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1286.04, -807.188 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D150" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D150" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1069.52, -812.886 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D151" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D151" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 938.464, -812.886 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D152" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D152" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 784.62, -807.188 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D153" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D153" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 619.38, -801.49 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D154" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D154" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 459.838, -801.49 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D155" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D155" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 260.41, -807.188 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D156" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D156" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 49.5866, -812.886 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D157" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D157" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1867.23, -687.531 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D158" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D158" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1542.44, -681.833 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D159" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D159" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1377.2, -687.531 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D160" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D160" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1217.66, -693.229 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D161" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D161" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 978.349, -681.833 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D162" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D162" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 824.505, -687.531 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D163" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D163" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 670.661, -687.531 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D164" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D164" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 539.609, -676.135 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D165" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D165" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 328.785, -687.531 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D166" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D166" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 180.639, -687.531 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D167" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D167" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1833.04, -562.177 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D168" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D168" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1667.8, -562.177 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D169" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D169" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1502.56, -562.177 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D170" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D170" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1143.59, -556.479 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D171" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D171" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 915.672, -556.479 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D172" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D172" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 727.64, -545.083 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D173" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D173" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 437.046, -556.479 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D174" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D174" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 140.753, -550.781 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D175" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D175" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1872.92, -425.426 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D176" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D176" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1701.99, -436.822 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D177" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D177" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1536.75, -431.124 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D178" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D178" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1354.41, -425.427 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D179" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D179" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1189.17, -425.427 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D180" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D180" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1063.82, -425.427 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D181" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D181" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 921.37, -425.426 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D182" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D182" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 773.224, -419.729 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D183" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D183" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 602.286, -431.125 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D184" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D184" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 419.952, -425.426 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D185" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D185" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 260.41, -419.729 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D186" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D186" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 60.9824, -425.426 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D187" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D187" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1787.46, -305.77 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D188" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D188" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1633.61, -300.072 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D189" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D189" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1382.9, -305.77 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D190" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D190" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 961.256, -300.072 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D191" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D191" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 659.265, -300.072 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D192" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D192" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 499.723, -294.374 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D193" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D193" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 203.431, -300.072 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D194" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D194" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1907.11, -174.718 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D195" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D195" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1696.29, -174.718 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D196" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D196" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1474.07, -174.717 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D197" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D197" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1268.94, -174.717 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D198" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D198" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1086.61, -174.717 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D199" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D199" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 801.714, -174.717 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D200" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D200" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 545.307, -169.02 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D201" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D201" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 345.879, -174.718 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D202" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D202" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 32.4928, -186.113 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D203" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D203" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1924.21, -60.759 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D204" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D204" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1701.99, -43.665 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D205" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D205" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1468.37, -55.061 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D206" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D206" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1331.62, -49.363 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D207" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D207" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1149.29, -49.363 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D208" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D208" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 966.953, -49.363 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D209" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D209" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 807.411, -49.363 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D210" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D210" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 585.192, -49.363 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D211" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D211" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 431.348, -49.363 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D212" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D212" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 260.41, -60.759 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D213" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D213" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 26.7949, -55.061 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D214" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D214" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1844.44, 75.9915 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D215" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D215" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1588.03, 75.9915 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D216" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D216" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1417.09, 81.6895 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D217" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D217" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1263.25, 75.9915 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D218" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D218" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1041.03, 75.9915 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D219" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D219" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 858.693, 81.6895 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D220" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D220" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 727.641, 87.3873 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D221" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D221" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 351.577, 75.9915 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D222" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D222" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 180.639, 75.9915 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D223" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D223" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1929.9, 201.346 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D224" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D224" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1770.36, 207.044 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D225" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D225" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1542.44, 207.044 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D226" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D226" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1297.43, 195.648 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D227" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D227" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1126.5, 201.346 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D228" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D228" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 961.256, 195.648 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D229" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D229" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 676.359, 207.044 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D230" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D230" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 496.573, 190.045 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 39.5944, 961.409 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(1)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(1)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 221.989, 961.415 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(2)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(2)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 410.944, 961.256 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(3)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(3)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 593.255, 961.285 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(4)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(4)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 775.81, 961.3 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(5)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(5)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 964.688, 961.192 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(6)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(6)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 1147.16, 961.171 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(7)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(7)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 1336.23, 961.354 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(8)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(8)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 1518.65, 961.282 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(9)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(9)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 1701.15, 961.346 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(10)" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(10)" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 1890.41, 961.35 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D(10)2" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(10)2" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 983.031, 1081.17 )
 scale = Vector2( 72.3034, 0.0536169 )
 
-[node name="Node2D(10)3" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(10)3" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 1982.01, 712.137 )
 scale = Vector2( 0.0670469, 755.944 )
 
-[node name="Node2D(10)4" parent="Platforms" instance=ExtResource( 29 )]
+[node name="Node2D(10)4" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( -5.26471, 737.329 )
 scale = Vector2( 0.0670469, 722.079 )
 
-[node name="Node2D2" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D2" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 561.113, 834.669 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D4" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D4" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 1985.42, 834.681 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D5" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D5" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 1748.02, 834.561 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D6" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D6" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 1510.63, 834.51 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D7" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D7" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 1273.16, 834.591 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D8" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D8" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 1035.87, 834.734 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D9" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D9" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 798.495, 834.501 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D10" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D10" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 323.868, 834.622 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D3" parent="Platforms" instance=ExtResource( 30 )]
+[node name="Node2D3" parent="Platforms" instance=ExtResource( 36 )]
 position = Vector2( 86.4601, 834.674 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D11" parent="Platforms" instance=ExtResource( 31 )]
+[node name="Node2D11" parent="Platforms" instance=ExtResource( 37 )]
 position = Vector2( 391.453, 708.12 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D12" parent="Platforms" instance=ExtResource( 31 )]
+[node name="Node2D12" parent="Platforms" instance=ExtResource( 37 )]
 position = Vector2( 866.494, 708.104 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D13" parent="Platforms" instance=ExtResource( 31 )]
+[node name="Node2D13" parent="Platforms" instance=ExtResource( 37 )]
 position = Vector2( 1103.67, 708.316 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D14" parent="Platforms" instance=ExtResource( 31 )]
+[node name="Node2D14" parent="Platforms" instance=ExtResource( 37 )]
 position = Vector2( 1341.09, 708.12 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D15" parent="Platforms" instance=ExtResource( 31 )]
+[node name="Node2D15" parent="Platforms" instance=ExtResource( 37 )]
 position = Vector2( 1578.53, 708.247 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D16" parent="Platforms" instance=ExtResource( 31 )]
+[node name="Node2D16" parent="Platforms" instance=ExtResource( 37 )]
 position = Vector2( 1815.59, 707.956 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D17" parent="Platforms" instance=ExtResource( 31 )]
+[node name="Node2D17" parent="Platforms" instance=ExtResource( 37 )]
 position = Vector2( 629.092, 707.885 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D18" parent="Platforms" instance=ExtResource( 31 )]
+[node name="Node2D18" parent="Platforms" instance=ExtResource( 37 )]
 position = Vector2( 154.539, 707.651 )
 scale = Vector2( 1.24037, 0.25468 )
 
-[node name="Node2D19" parent="Platforms" instance=ExtResource( 32 )]
+[node name="Node2D19" parent="Platforms" instance=ExtResource( 38 )]
 position = Vector2( 776.57, 581.299 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D20" parent="Platforms" instance=ExtResource( 32 )]
+[node name="Node2D20" parent="Platforms" instance=ExtResource( 38 )]
 position = Vector2( 1793.02, 581.316 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D21" parent="Platforms" instance=ExtResource( 32 )]
+[node name="Node2D21" parent="Platforms" instance=ExtResource( 38 )]
 position = Vector2( 1636.15, 581.223 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D22" parent="Platforms" instance=ExtResource( 32 )]
+[node name="Node2D22" parent="Platforms" instance=ExtResource( 38 )]
 position = Vector2( 1504.82, 581.123 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D23" parent="Platforms" instance=ExtResource( 32 )]
+[node name="Node2D23" parent="Platforms" instance=ExtResource( 38 )]
 position = Vector2( 1240.59, 581.409 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D24" parent="Platforms" instance=ExtResource( 32 )]
+[node name="Node2D24" parent="Platforms" instance=ExtResource( 38 )]
 position = Vector2( 1071.01, 581.281 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D231" parent="Platforms" instance=ExtResource( 32 )]
+[node name="Node2D231" parent="Platforms" instance=ExtResource( 38 )]
 position = Vector2( 423.931, 581.259 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D232" parent="Platforms" instance=ExtResource( 32 )]
+[node name="Node2D232" parent="Platforms" instance=ExtResource( 38 )]
 position = Vector2( 186.372, 581.293 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D233" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D233" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 838.83, 454.587 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D234" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D234" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 1942.94, 454.758 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D235" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D235" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 1546.12, 454.637 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D236" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D236" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 1397.54, 454.327 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D237" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D237" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 1194.23, 454.569 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D238" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D238" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 963.565, 454.432 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D239" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D239" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 661.224, 454.819 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D240" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D240" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 514.164, 454.49 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D241" parent="Platforms" instance=ExtResource( 33 )]
+[node name="Node2D241" parent="Platforms" instance=ExtResource( 39 )]
 position = Vector2( 39.5042, 454.319 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D242" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D242" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 579.956, 327.763 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D243" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D243" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1858.36, 327.561 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D244" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D244" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1706.36, 328.144 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D245" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D245" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1478.51, 328.03 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D246" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D246" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 927.551, 327.853 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D247" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D247" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1287.57, 327.917 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D248" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D248" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 1085.17, 327.836 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D249" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D249" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 738.843, 327.946 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D250" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D250" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 400.599, 327.853 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D251" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D251" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 277.078, 327.585 )
 scale = Vector2( 1.24044, 0.254792 )
 
-[node name="Node2D252" parent="Platforms" instance=ExtResource( 28 )]
+[node name="Node2D252" parent="Platforms" instance=ExtResource( 34 )]
 position = Vector2( 39.5464, 327.358 )
 scale = Vector2( 1.24044, 0.254792 )
 
@@ -1698,20 +1824,24 @@ editor/display_folded = true
 
 [node name="Coin" type="Area2D" parent="Collectables"]
 position = Vector2( 408.722, 902.916 )
-script = ExtResource( 34 )
+script = ExtResource( 40 )
 
 [node name="Sprite" type="Sprite" parent="Collectables/Coin"]
-texture = ExtResource( 35 )
+texture = ExtResource( 41 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Collectables/Coin"]
 shape = SubResource( 1 )
 
 [node name="Player" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="Player"]
-position = Vector2( 958.459, 918.298 )
+position = Vector2( 986.642, 1047.62 )
 scale = Vector2( 0.5, 0.5 )
-script = ExtResource( 36 )
+script = ExtResource( 42 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/KinematicBody2D"]
 shape = SubResource( 2 )
@@ -1720,7 +1850,7 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="Player/KinematicBody2D"]
-texture = ExtResource( 37 )
+texture = ExtResource( 43 )
 __meta__ = {
 "_edit_lock_": true
 }
@@ -1743,6 +1873,7 @@ __meta__ = {
 }
 
 [node name="Scene Counter" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="UI" type="CanvasLayer" parent="Scene Counter"]
 
@@ -1753,1358 +1884,6 @@ margin_bottom = 40.0
 [node name="RichTextLabel" type="RichTextLabel" parent="Scene Counter/UI/Control"]
 margin_right = 40.0
 margin_bottom = 40.0
-tab_size = 24
-
-[node name="floor 12" type="Sprite" parent="."]
-visible = false
-position = Vector2( 1043.11, -3530.38 )
-texture = ExtResource( 38 )
-
-[node name="Other blocks" type="Node" parent="."]
-editor/display_folded = true
-
-[node name="Ladder" type="Area2D" parent="Other blocks"]
-position = Vector2( 39.5715, 581.061 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder"]
-shape = SubResource( 3 )
-
-[node name="Ladder3" type="Area2D" parent="Other blocks"]
-position = Vector2( 661.118, 581.061 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder3"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder3"]
-shape = SubResource( 3 )
-
-[node name="Ladder4" type="Area2D" parent="Other blocks"]
-position = Vector2( 962.642, 577.361 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder4"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder4"]
-shape = SubResource( 3 )
-
-[node name="Ladder5" type="Area2D" parent="Other blocks"]
-position = Vector2( 1085.17, 454.819 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder5"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder5"]
-shape = SubResource( 3 )
-
-[node name="Ladder6" type="Area2D" parent="Other blocks"]
-position = Vector2( 1394.05, 581.409 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder6"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder6"]
-shape = SubResource( 3 )
-
-[node name="Ladder7" type="Area2D" parent="Other blocks"]
-position = Vector2( 1706.36, 454.327 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder7"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder7"]
-shape = SubResource( 3 )
-
-[node name="Ladder8" type="Area2D" parent="Other blocks"]
-position = Vector2( 1939.72, 581.409 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder8"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder8"]
-shape = SubResource( 3 )
-
-[node name="Ladder9" type="Area2D" parent="Other blocks"]
-position = Vector2( 1422.59, 201.346 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder9"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder9"]
-shape = SubResource( 3 )
-
-[node name="Ladder10" type="Area2D" parent="Other blocks"]
-position = Vector2( 1709.05, 73.5361 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder10"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder10"]
-shape = SubResource( 3 )
-
-[node name="Ladder11" type="Area2D" parent="Other blocks"]
-position = Vector2( 1150.76, 73.5361 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder11"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder11"]
-shape = SubResource( 3 )
-
-[node name="Ladder12" type="Area2D" parent="Other blocks"]
-position = Vector2( 862.277, 199.161 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder12"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder12"]
-shape = SubResource( 3 )
-
-[node name="Ladder13" type="Area2D" parent="Other blocks"]
-position = Vector2( 362.973, 199.161 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder13"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder13"]
-shape = SubResource( 3 )
-
-[node name="Ladder14" type="Area2D" parent="Other blocks"]
-position = Vector2( 582.381, 73.536 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder14"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder14"]
-shape = SubResource( 3 )
-
-[node name="Ladder15" type="Area2D" parent="Other blocks"]
-position = Vector2( 285.913, 73.536 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder15"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder15"]
-shape = SubResource( 3 )
-
-[node name="Ladder16" type="Area2D" parent="Other blocks"]
-position = Vector2( 38.1907, 75.9915 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder16"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder16"]
-shape = SubResource( 3 )
-
-[node name="Ladder17" type="Area2D" parent="Other blocks"]
-position = Vector2( 194.912, -177.96 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder17"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder17"]
-shape = SubResource( 3 )
-
-[node name="Ladder18" type="Area2D" parent="Other blocks"]
-position = Vector2( 406.688, -305.77 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder18"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder18"]
-shape = SubResource( 3 )
-
-[node name="Ladder19" type="Area2D" parent="Other blocks"]
-position = Vector2( 662.038, -177.96 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder19"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder19"]
-shape = SubResource( 3 )
-
-[node name="Ladder20" type="Area2D" parent="Other blocks"]
-position = Vector2( 968.68, -174.717 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder20"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder20"]
-shape = SubResource( 3 )
-
-[node name="Ladder21" type="Area2D" parent="Other blocks"]
-position = Vector2( 898.387, -305.77 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder21"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder21"]
-shape = SubResource( 3 )
-
-[node name="Ladder22" type="Area2D" parent="Other blocks"]
-position = Vector2( 1186.85, -302.527 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder22"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder22"]
-shape = SubResource( 3 )
-
-[node name="Ladder23" type="Area2D" parent="Other blocks"]
-position = Vector2( 1538.01, -308.225 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder23"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder23"]
-shape = SubResource( 3 )
-
-[node name="Ladder24" type="Area2D" parent="Other blocks"]
-position = Vector2( 1782.76, -182.87 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder24"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder24"]
-shape = SubResource( 3 )
-
-[node name="Ladder25" type="Area2D" parent="Other blocks"]
-position = Vector2( 1867.42, -300.072 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder25"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder25"]
-shape = SubResource( 3 )
-
-[node name="Ladder26" type="Area2D" parent="Other blocks"]
-position = Vector2( 1667.86, -701.382 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder26"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder26"]
-shape = SubResource( 3 )
-
-[node name="Ladder27" type="Area2D" parent="Other blocks"]
-position = Vector2( 1362.04, -556.479 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder27"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder27"]
-shape = SubResource( 3 )
-
-[node name="Ladder28" type="Area2D" parent="Other blocks"]
-position = Vector2( 1056.3, -687.531 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder28"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder28"]
-shape = SubResource( 3 )
-
-[node name="Ladder29" type="Area2D" parent="Other blocks"]
-position = Vector2( 819.135, -562.177 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder29"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder29"]
-shape = SubResource( 3 )
-
-[node name="Ladder30" type="Area2D" parent="Other blocks"]
-position = Vector2( 525.106, -550.781 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder30"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder30"]
-shape = SubResource( 3 )
-
-[node name="Ladder31" type="Area2D" parent="Other blocks"]
-position = Vector2( 450.636, -680.832 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder31"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder31"]
-shape = SubResource( 3 )
-
-[node name="Ladder32" type="Area2D" parent="Other blocks"]
-position = Vector2( 325.607, -558.934 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder32"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder32"]
-shape = SubResource( 3 )
-
-[node name="Ladder33" type="Area2D" parent="Other blocks"]
-position = Vector2( 40, -695.684 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder33"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder33"]
-shape = SubResource( 3 )
-
-[node name="Ladder34" type="Area2D" parent="Other blocks"]
-position = Vector2( 362.973, -946.393 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder34"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder34"]
-shape = SubResource( 3 )
-
-[node name="Ladder35" type="Area2D" parent="Other blocks"]
-position = Vector2( 579.956, -1069.29 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder35"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder35"]
-shape = SubResource( 3 )
-
-[node name="Ladder36" type="Area2D" parent="Other blocks"]
-position = Vector2( 289.091, -1065.05 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder36"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder36"]
-shape = SubResource( 3 )
-
-[node name="Ladder37" type="Area2D" parent="Other blocks"]
-position = Vector2( 40, -1063.59 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder37"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder37"]
-shape = SubResource( 3 )
-
-[node name="Ladder38" type="Area2D" parent="Other blocks"]
-position = Vector2( 879.082, -1061.14 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder38"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder38"]
-shape = SubResource( 3 )
-
-[node name="Ladder39" type="Area2D" parent="Other blocks"]
-position = Vector2( 978.349, -940.695 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder39"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder39"]
-shape = SubResource( 3 )
-
-[node name="Ladder40" type="Area2D" parent="Other blocks"]
-position = Vector2( 1216.95, -1065.05 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder40"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder40"]
-shape = SubResource( 3 )
-
-[node name="Ladder41" type="Area2D" parent="Other blocks"]
-position = Vector2( 1465.13, -935.785 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder41"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder41"]
-shape = SubResource( 3 )
-
-[node name="Ladder42" type="Area2D" parent="Other blocks"]
-position = Vector2( 1679.19, -1069.29 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder42"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder42"]
-shape = SubResource( 3 )
-
-[node name="Ladder43" type="Area2D" parent="Other blocks"]
-position = Vector2( 1798.85, -942.482 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder43"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder43"]
-shape = SubResource( 3 )
-
-[node name="Ladder44" type="Area2D" parent="Other blocks"]
-position = Vector2( 1782.76, -1316.58 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder44"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder44"]
-shape = SubResource( 3 )
-
-[node name="Ladder45" type="Area2D" parent="Other blocks"]
-position = Vector2( 1574.13, -1451.34 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder45"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder45"]
-shape = SubResource( 3 )
-
-[node name="Ladder46" type="Area2D" parent="Other blocks"]
-position = Vector2( 1325.73, -1328.15 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder46"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder46"]
-shape = SubResource( 3 )
-
-[node name="Ladder47" type="Area2D" parent="Other blocks"]
-position = Vector2( 1009.05, -1316.58 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder47"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder47"]
-shape = SubResource( 3 )
-
-[node name="Ladder48" type="Area2D" parent="Other blocks"]
-position = Vector2( 1083.72, -1446.81 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder48"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder48"]
-shape = SubResource( 3 )
-
-[node name="Ladder49" type="Area2D" parent="Other blocks"]
-position = Vector2( 799.136, -1443.19 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder49"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder49"]
-shape = SubResource( 3 )
-
-[node name="Ladder50" type="Area2D" parent="Other blocks"]
-position = Vector2( 451.857, -1446.64 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder50"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder50"]
-shape = SubResource( 3 )
-
-[node name="Ladder51" type="Area2D" parent="Other blocks"]
-position = Vector2( 199.064, -1316.58 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder51"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder51"]
-shape = SubResource( 3 )
-
-[node name="Ladder52" type="Area2D" parent="Other blocks"]
-position = Vector2( 117.77, -1451.34 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder52"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder52"]
-shape = SubResource( 3 )
-
-[node name="Ladder53" type="Area2D" parent="Other blocks"]
-position = Vector2( 316.772, -1821.32 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder53"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder53"]
-shape = SubResource( 3 )
-
-[node name="Ladder54" type="Area2D" parent="Other blocks"]
-position = Vector2( 619.38, -1698.41 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder54"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder54"]
-shape = SubResource( 3 )
-
-[node name="Ladder55" type="Area2D" parent="Other blocks"]
-position = Vector2( 928.605, -1826.02 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder55"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder55"]
-shape = SubResource( 3 )
-
-[node name="Ladder56" type="Area2D" parent="Other blocks"]
-position = Vector2( 1162.49, -1694.96 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder56"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder56"]
-shape = SubResource( 3 )
-
-[node name="Ladder57" type="Area2D" parent="Other blocks"]
-position = Vector2( 1451.28, -1694.96 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder57"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder57"]
-shape = SubResource( 3 )
-
-[node name="Ladder58" type="Area2D" parent="Other blocks"]
-position = Vector2( 1528.59, -1829.47 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder58"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder58"]
-shape = SubResource( 3 )
-
-[node name="Ladder59" type="Area2D" parent="Other blocks"]
-position = Vector2( 1656.02, -1710.82 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder59"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder59"]
-shape = SubResource( 3 )
-
-[node name="Ladder60" type="Area2D" parent="Other blocks"]
-position = Vector2( 1939.72, -1822.57 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder60"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder60"]
-shape = SubResource( 3 )
-
-[node name="Ladder61" type="Area2D" parent="Other blocks"]
-position = Vector2( 1616.33, -2077.56 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder61"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder61"]
-shape = SubResource( 3 )
-
-[node name="Ladder62" type="Area2D" parent="Other blocks"]
-position = Vector2( 1009.05, -2093.6 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder62"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder62"]
-shape = SubResource( 3 )
-
-[node name="Ladder63" type="Area2D" parent="Other blocks"]
-position = Vector2( 511.119, -2081.5 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder63"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder63"]
-shape = SubResource( 3 )
-
-[node name="Ladder64" type="Area2D" parent="Other blocks"]
-position = Vector2( 186.197, -2081.5 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder64"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder64"]
-shape = SubResource( 3 )
-
-[node name="Ladder65" type="Area2D" parent="Other blocks"]
-position = Vector2( 298.02, -2211.9 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder65"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder65"]
-shape = SubResource( 3 )
-
-[node name="Ladder66" type="Area2D" parent="Other blocks"]
-position = Vector2( 767.334, -2207.69 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder66"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder66"]
-shape = SubResource( 3 )
-
-[node name="Ladder67" type="Area2D" parent="Other blocks"]
-position = Vector2( 1103.51, -2215.84 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder67"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder67"]
-shape = SubResource( 3 )
-
-[node name="Ladder68" type="Area2D" parent="Other blocks"]
-position = Vector2( 1404.27, -2207.69 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder68"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder68"]
-shape = SubResource( 3 )
-
-[node name="Ladder69" type="Area2D" parent="Other blocks"]
-position = Vector2( 1691.25, -2211.37 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder69"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder69"]
-shape = SubResource( 3 )
-
-[node name="Ladder70" type="Area2D" parent="Other blocks"]
-position = Vector2( 1945.73, -2207.69 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder70"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder70"]
-shape = SubResource( 3 )
-
-[node name="Ladder71" type="Area2D" parent="Other blocks"]
-position = Vector2( 1787.14, -2577.58 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder71"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder71"]
-shape = SubResource( 3 )
-
-[node name="Ladder72" type="Area2D" parent="Other blocks"]
-position = Vector2( 1558.34, -2468.48 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder72"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder72"]
-shape = SubResource( 3 )
-
-[node name="Ladder73" type="Area2D" parent="Other blocks"]
-position = Vector2( 1377.2, -2586.54 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder73"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder73"]
-shape = SubResource( 3 )
-
-[node name="Ladder74" type="Area2D" parent="Other blocks"]
-position = Vector2( 1143.59, -2459.83 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder74"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder74"]
-shape = SubResource( 3 )
-
-[node name="Ladder75" type="Area2D" parent="Other blocks"]
-position = Vector2( 917.733, -2596.16 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder75"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder75"]
-shape = SubResource( 3 )
-
-[node name="Ladder76" type="Area2D" parent="Other blocks"]
-position = Vector2( 836.093, -2468.48 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder76"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder76"]
-shape = SubResource( 3 )
-
-[node name="Ladder77" type="Area2D" parent="Other blocks"]
-position = Vector2( 682.248, -2586.54 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder77"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder77"]
-shape = SubResource( 3 )
-
-[node name="Ladder78" type="Area2D" parent="Other blocks"]
-position = Vector2( 432.535, -2459.83 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder78"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder78"]
-shape = SubResource( 3 )
-
-[node name="Ladder79" type="Area2D" parent="Other blocks"]
-position = Vector2( 331.62, -2579.56 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder79"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder79"]
-shape = SubResource( 3 )
-
-[node name="Ladder80" type="Area2D" parent="Other blocks"]
-position = Vector2( 137.67, -2586.54 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder80"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder80"]
-shape = SubResource( 3 )
-
-[node name="Ladder81" type="Area2D" parent="Other blocks"]
-position = Vector2( 391.271, -2967.31 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder81"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder81"]
-shape = SubResource( 3 )
-
-[node name="Ladder82" type="Area2D" parent="Other blocks"]
-position = Vector2( 465.026, -2848.07 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder82"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder82"]
-shape = SubResource( 3 )
-
-[node name="Ladder83" type="Area2D" parent="Other blocks"]
-position = Vector2( 736.118, -2840.4 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder83"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder83"]
-shape = SubResource( 3 )
-
-[node name="Ladder84" type="Area2D" parent="Other blocks"]
-position = Vector2( 1015.11, -2966.72 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder84"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder84"]
-shape = SubResource( 3 )
-
-[node name="Ladder85" type="Area2D" parent="Other blocks"]
-position = Vector2( 1354.41, -2839.75 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder85"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder85"]
-shape = SubResource( 3 )
-
-[node name="Ladder86" type="Area2D" parent="Other blocks"]
-position = Vector2( 1447.4, -2958.4 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder86"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder86"]
-shape = SubResource( 3 )
-
-[node name="Ladder87" type="Area2D" parent="Other blocks"]
-position = Vector2( 1701.99, -2848.72 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder87"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder87"]
-shape = SubResource( 3 )
-
-[node name="Ladder88" type="Area2D" parent="Other blocks"]
-position = Vector2( 1426.48, -3353.35 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder88"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder88"]
-shape = SubResource( 3 )
-
-[node name="Ladder89" type="Area2D" parent="Other blocks"]
-position = Vector2( 1085.99, -3226.21 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder89"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder89"]
-shape = SubResource( 3 )
-
-[node name="Ladder90" type="Area2D" parent="Other blocks"]
-position = Vector2( 784.62, -3226.85 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder90"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder90"]
-shape = SubResource( 3 )
-
-[node name="Ladder91" type="Area2D" parent="Other blocks"]
-position = Vector2( 710.355, -3344.86 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder91"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder91"]
-shape = SubResource( 3 )
-
-[node name="Ladder92" type="Area2D" parent="Other blocks"]
-position = Vector2( 431.145, -3218.21 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder92"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder92"]
-shape = SubResource( 3 )
-
-[node name="Ladder93" type="Area2D" parent="Other blocks"]
-position = Vector2( 331.745, -3344.86 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder93"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder93"]
-shape = SubResource( 3 )
-
-[node name="Ladder94" type="Area2D" parent="Other blocks"]
-position = Vector2( 423.931, -3598.47 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder94"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder94"]
-shape = SubResource( 3 )
-
-[node name="Ladder95" type="Area2D" parent="Other blocks"]
-position = Vector2( 536.267, -3724.93 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder95"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder95"]
-shape = SubResource( 3 )
-
-[node name="Ladder96" type="Area2D" parent="Other blocks"]
-position = Vector2( 744.926, -3732.93 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder96"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder96"]
-shape = SubResource( 3 )
-
-[node name="Ladder97" type="Area2D" parent="Other blocks"]
-position = Vector2( 998.63, -3598.99 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder97"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder97"]
-shape = SubResource( 3 )
-
-[node name="Ladder98" type="Area2D" parent="Other blocks"]
-position = Vector2( 1267.21, -3598.47 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder98"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder98"]
-shape = SubResource( 3 )
-
-[node name="Ladder99" type="Area2D" parent="Other blocks"]
-position = Vector2( 1330.9, -3724.93 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder99"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder99"]
-shape = SubResource( 3 )
-
-[node name="Ladder100" type="Area2D" parent="Other blocks"]
-position = Vector2( 1254.35, -3978.93 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder100"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder100"]
-shape = SubResource( 3 )
-
-[node name="Ladder101" type="Area2D" parent="Other blocks"]
-position = Vector2( 822.999, -3986.55 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder101"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder101"]
-shape = SubResource( 3 )
-
-[node name="Ladder102" type="Area2D" parent="Other blocks"]
-position = Vector2( 523.91, -4105.9 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder102"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder102"]
-shape = SubResource( 3 )
-
-[node name="Ladder103" type="Area2D" parent="Other blocks"]
-position = Vector2( 889.541, -4105.9 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder103"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder103"]
-shape = SubResource( 3 )
-
-[node name="Ladder104" type="Area2D" parent="Other blocks"]
-position = Vector2( 1080.72, -4105.2 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder104"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder104"]
-shape = SubResource( 3 )
-
-[node name="Ladder105" type="Area2D" parent="Other blocks"]
-position = Vector2( 921.37, -4364.18 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder105"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder105"]
-shape = SubResource( 3 )
-
-[node name="Ladder106" type="Area2D" parent="Other blocks"]
-position = Vector2( 1302.94, -4364.18 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder106"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder106"]
-shape = SubResource( 3 )
-
-[node name="Ladder107" type="Area2D" parent="Other blocks"]
-position = Vector2( 1099.21, -4482.84 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder107"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder107"]
-shape = SubResource( 3 )
-
-[node name="Ladder108" type="Area2D" parent="Other blocks"]
-position = Vector2( 775.81, -4482.84 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder108"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder108"]
-shape = SubResource( 3 )
-
-[node name="Ladder109" type="Area2D" parent="Other blocks"]
-position = Vector2( 716.053, -4734.03 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder109"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder109"]
-shape = SubResource( 3 )
-
-[node name="Ladder110" type="Area2D" parent="Other blocks"]
-position = Vector2( 870.166, -4734.03 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder110"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder110"]
-shape = SubResource( 3 )
-
-[node name="Ladder111" type="Area2D" parent="Other blocks"]
-position = Vector2( 1025.33, -4734.03 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder111"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder111"]
-shape = SubResource( 3 )
-
-[node name="Ladder112" type="Area2D" parent="Other blocks"]
-position = Vector2( 1163.32, -4734.03 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder112"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder112"]
-shape = SubResource( 3 )
-
-[node name="Ladder2" type="Area2D" parent="Other blocks"]
-position = Vector2( 276.177, 454.599 )
-scale = Vector2( 0.319403, 3.70796 )
-
-[node name="Sprite" type="Sprite" parent="Other blocks/Ladder2"]
-texture = ExtResource( 35 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Other blocks/Ladder2"]
-shape = SubResource( 3 )
+text = "0"
 [connection signal="body_entered" from="Collectables/Coin" to="Collectables/Coin" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
-[connection signal="body_entered" from="Other blocks/Ladder" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder3" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder3" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder4" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder4" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder5" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder5" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder6" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder6" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder7" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder7" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder8" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder8" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder9" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder9" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder10" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder10" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder11" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder11" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder12" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder12" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder13" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder13" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder14" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder14" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder15" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder15" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder16" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder16" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder17" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder17" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder18" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder18" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder19" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder19" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder20" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder20" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder21" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder21" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder22" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder22" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder23" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder23" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder24" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder24" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder25" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder25" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder26" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder26" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder27" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder27" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder28" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder28" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder29" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder29" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder30" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder30" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder31" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder31" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder32" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder32" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder33" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder33" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder34" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder34" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder35" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder35" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder36" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder36" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder37" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder37" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder38" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder38" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder39" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder39" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder40" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder40" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder41" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder41" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder42" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder42" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder43" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder43" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder44" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder44" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder45" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder45" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder46" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder46" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder47" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder47" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder48" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder48" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder49" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder49" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder50" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder50" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder51" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder51" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder52" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder52" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder53" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder53" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder54" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder54" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder55" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder55" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder56" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder56" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder57" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder57" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder58" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder58" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder59" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder59" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder60" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder60" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder61" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder61" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder62" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder62" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder63" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder63" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder64" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder64" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder65" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder65" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder66" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder66" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder67" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder67" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder68" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder68" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder69" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder69" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder70" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder70" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder71" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder71" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder72" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder72" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder73" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder73" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder74" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder74" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder75" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder75" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder76" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder76" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder77" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder77" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder78" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder78" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder79" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder79" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder80" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder80" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder81" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder81" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder82" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder82" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder83" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder83" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder84" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder84" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder85" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder85" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder86" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder86" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder87" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder87" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder88" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder88" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder89" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder89" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder90" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder90" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder91" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder91" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder92" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder92" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder93" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder93" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder94" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder94" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder95" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder95" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder96" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder96" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder97" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder97" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder98" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder98" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder99" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder99" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder100" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder100" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder101" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder101" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder102" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder102" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder103" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder103" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder104" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder104" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder105" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder105" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder106" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder106" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder107" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder107" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder108" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder108" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder109" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder109" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder110" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder110" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder111" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder111" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder112" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder112" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
-[connection signal="body_entered" from="Other blocks/Ladder2" to="Player/KinematicBody2D" method="_on_Ladder_body_entered"]
-[connection signal="body_exited" from="Other blocks/Ladder2" to="Player/KinematicBody2D" method="_on_Ladder_body_exited"]
