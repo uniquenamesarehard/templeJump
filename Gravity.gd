@@ -36,7 +36,7 @@ func _physics_process(delta):
 	#Code that updates coins text
 	var LabelNode = get_parent().get_parent().get_node("Scene Counter/UI/Control/RichTextLabel")
 	LabelNode.text = str(coins)
-	
+	print(ladder_on)
 	# Create forces
 	var force = Vector2(0, GRAVITY)
 	motion.y += GRAVITY
