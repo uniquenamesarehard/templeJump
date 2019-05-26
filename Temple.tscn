@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://floor 1.png" type="Texture" id=1]
 [ext_resource path="res://platform1.tscn" type="PackedScene" id=2]
@@ -8,10 +8,13 @@
 [ext_resource path="res://platform4.tscn" type="PackedScene" id=6]
 [ext_resource path="res://platform5.tscn" type="PackedScene" id=7]
 [ext_resource path="res://platform6.tscn" type="PackedScene" id=8]
-[ext_resource path="res://Coin.gd" type="Script" id=9]
-[ext_resource path="res://icon.png" type="Texture" id=10]
-[ext_resource path="res://Gravity.gd" type="Script" id=11]
-[ext_resource path="res://lizardbase.png" type="Texture" id=12]
+[ext_resource path="res://floor 3.png" type="Texture" id=9]
+[ext_resource path="res://floor 4.png" type="Texture" id=10]
+[ext_resource path="res://floor 5.png" type="Texture" id=11]
+[ext_resource path="res://Coin.gd" type="Script" id=12]
+[ext_resource path="res://icon.png" type="Texture" id=13]
+[ext_resource path="res://Gravity.gd" type="Script" id=14]
+[ext_resource path="res://lizardbase.png" type="Texture" id=15]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 32.2448
@@ -30,7 +33,6 @@ __meta__ = {
 }
 
 [node name="Level1" type="Node2D" parent="floor 1"]
-editor/display_folded = true
 
 [node name="Node2D" parent="floor 1/Level1" instance=ExtResource( 2 )]
 position = Vector2( -1417.47, 106.539 )
@@ -79,6 +81,14 @@ scale = Vector2( 1.85, 0.38 )
 [node name="Node2D(10)2" parent="floor 1/Level1" instance=ExtResource( 2 )]
 position = Vector2( -10.3401, 285.229 )
 scale = Vector2( 107.84, 0.08 )
+
+[node name="Node2D(10)3" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( 1479.64, -265.391 )
+scale = Vector2( 0.1, 1127.92 )
+
+[node name="Node2D(10)4" parent="floor 1/Level1" instance=ExtResource( 2 )]
+position = Vector2( -1484.85, -227.803 )
+scale = Vector2( 0.1, 1077.39 )
 
 [node name="Level2" type="Node2D" parent="floor 1"]
 editor/display_folded = true
@@ -155,6 +165,7 @@ position = Vector2( -1246.03, -272.084 )
 scale = Vector2( 1.85, 0.38 )
 
 [node name="floor 2" type="Sprite" parent="."]
+editor/display_folded = true
 position = Vector2( 990.047, 509.902 )
 scale = Vector2( 0.670506, 0.670506 )
 texture = ExtResource( 5 )
@@ -283,14 +294,57 @@ scale = Vector2( 1.85, 0.38 )
 position = Vector2( -1418.07, -272.248 )
 scale = Vector2( 1.85, 0.38 )
 
+[node name="floor 3" type="Sprite" parent="."]
+position = Vector2( 989.937, 129.858 )
+scale = Vector2( 0.670473, 0.670473 )
+texture = ExtResource( 9 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Level7" type="Node2D" parent="floor 3"]
+
+[node name="Level8" type="Node2D" parent="floor 3"]
+
+[node name="Level9" type="Node2D" parent="floor 3"]
+
+[node name="floor 4" type="Sprite" parent="."]
+position = Vector2( 989.863, -249.17 )
+scale = Vector2( 0.670415, 0.670415 )
+texture = ExtResource( 10 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Level10" type="Node2D" parent="floor 4"]
+
+[node name="Level11" type="Node2D" parent="floor 4"]
+
+[node name="Level12" type="Node2D" parent="floor 4"]
+
+[node name="floor 5" type="Sprite" parent="."]
+position = Vector2( 990.075, -629.312 )
+scale = Vector2( 0.670549, 0.670549 )
+texture = ExtResource( 11 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Level13" type="Node2D" parent="floor 5"]
+
+[node name="Level14" type="Node2D" parent="floor 5"]
+
+[node name="Level15" type="Node2D" parent="floor 5"]
+
 [node name="Collectables" type="Node" parent="."]
+editor/display_folded = true
 
 [node name="Coin" type="Area2D" parent="Collectables"]
 position = Vector2( 408.722, 902.916 )
-script = ExtResource( 9 )
+script = ExtResource( 12 )
 
 [node name="Sprite" type="Sprite" parent="Collectables/Coin"]
-texture = ExtResource( 10 )
+texture = ExtResource( 13 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Collectables/Coin"]
 shape = SubResource( 1 )
@@ -298,18 +352,29 @@ shape = SubResource( 1 )
 [node name="Player" type="Node" parent="."]
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="Player"]
-position = Vector2( 23.2263, 913.097 )
+position = Vector2( 986.642, 1047.62 )
 scale = Vector2( 0.5, 0.5 )
-script = ExtResource( 11 )
+script = ExtResource( 14 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/KinematicBody2D"]
 shape = SubResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Player/KinematicBody2D"]
-texture = ExtResource( 12 )
+texture = ExtResource( 15 )
 
 [node name="Camera2D" type="Camera2D" parent="Player/KinematicBody2D"]
+position = Vector2( -1.66699, 28.343 )
 current = true
+process_mode = 0
+limit_left = -9999990
+limit_bottom = 1082
+limit_smoothed = true
+offset_v = 1.0
+offset_h = 1.0
+drag_margin_left = 1.0
+drag_margin_top = 1.0
+drag_margin_right = 1.0
+drag_margin_bottom = 1.0
 
 [node name="Scene Counter" type="Node" parent="."]
 
