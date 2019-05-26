@@ -2530,6 +2530,17 @@ texture = ExtResource( 46 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Other Blocks/Vine51"]
 shape = SubResource( 3 )
 
+[node name="Endgame" type="Node" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Endgame"]
+position = Vector2( 968.133, -5063.47 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Endgame/StaticBody2D"]
+position = Vector2( 21.0426, 40.6436 )
+rotation = 3.14159
+shape = SubResource( 5 )
+one_way_collision = true
+one_way_collision_margin = 0.0
 [connection signal="body_entered" from="Collectables/Coin" to="Collectables/Coin" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Other Blocks/Vine" to="Player/KinematicBody2D" method="_on_Vine_body_entered"]
