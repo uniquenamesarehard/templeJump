@@ -30,8 +30,13 @@ var motion = Vector2()
 var vine_on = false;
 var coins = 0
 var god_mode = false
+var win = false
 
 func _physics_process(delta):
+	
+	if not win:
+		var youWin = get_parent().get_parent().get_node("Endgame/youWin")
+		youWin.hide()
 	
 	
 	#Code that updates coins text
