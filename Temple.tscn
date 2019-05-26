@@ -319,6 +319,6 @@ margin_bottom = 40.0
 [node name="RichTextLabel" type="RichTextLabel" parent="Scene Counter/UI/Control"]
 margin_right = 40.0
 margin_bottom = 40.0
-text = "1"
+text = "0"
 [connection signal="body_entered" from="Collectables/Coin" to="Collectables/Coin" method="_on_Coin_body_entered"]
 [connection signal="body_entered" from="Collectables/Coin" to="Player/KinematicBody2D" method="_on_Coin_body_entered"]
