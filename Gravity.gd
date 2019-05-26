@@ -16,7 +16,7 @@ const SLIDE_STOP_VELOCITY = 1.0 # one pixel/second
 const SLIDE_STOP_MIN_TRAVEL = 1.0 # one psixel
 
 const SPEED = 200
-const JUMP_HEIGHT = -550
+const JUMP_HEIGHT = -425
 const UP = Vector2(0, -1)
 
 var velocity = Vector2()
