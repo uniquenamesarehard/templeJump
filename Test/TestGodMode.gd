@@ -111,7 +111,6 @@ func _physics_process(delta):
 			motion.y = JUMP_HEIGHT
 			
 	
-	#Ladder code
 	if ladder_on == true:
 		GRAVITY = 0
 		on_air_time = 0

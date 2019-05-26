@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 # Member variables
-var GRAVITY = 20.0 # pixels/second/second
+const GRAVITY = 10.0 # pixels/second/second
 
 # Angle in degrees towards either side that the player can consider "floor"
 const FLOOR_ANGLE_TOLERANCE = 90
@@ -16,7 +16,7 @@ const SLIDE_STOP_VELOCITY = 1.0 # one pixel/second
 const SLIDE_STOP_MIN_TRAVEL = 1.0 # one psixel
 
 const SPEED = 200
-const JUMP_HEIGHT = -575
+const JUMP_HEIGHT = -425
 const UP = Vector2(0, -1)
 
 var velocity = Vector2()
@@ -27,12 +27,9 @@ var prev_jump_pressed = false
 
 var motion = Vector2()
 
-var ladder_on = false;
 var coins = 0
 
 func _physics_process(delta):
-	
-	
 	#Code that updates coins text
 	var LabelNode = get_parent().get_parent().get_node("Scene Counter/UI/Control/RichTextLabel")
 	LabelNode.text = str(coins)
@@ -68,13 +65,8 @@ func _physics_process(delta):
 	
 	# Integrate forces to velocity
 	velocity += force * delta	
-	
-	
-		
-		
 	# Integrate velocity into motion and move
-	if not ladder_on:
-		velocity = move_and_slide(velocity, Vector2(0, -1))
+	velocity = move_and_slide(velocity, Vector2(0, -1))
 	
 	if is_on_floor():
 		on_air_time = 0
@@ -98,34 +90,17 @@ func _physics_process(delta):
 
 	if Input.is_action_pressed("ui_right"):
 		motion.x = SPEED
-		if Input.is_action_just_pressed("ui_up") and is_on_floor():
+		if Input.is_action_just_pressed("ui_up"):
 			motion.y = JUMP_HEIGHT
 	elif Input.is_action_pressed("ui_left"):
 		motion.x = -SPEED
-		if Input.is_action_just_pressed("ui_up") and is_on_floor():
+		if Input.is_action_just_pressed("ui_up"):
 			motion.y = JUMP_HEIGHT
 	else:
 		motion.x = 0
 	if is_on_floor():
 		if Input.is_action_just_pressed("ui_up"):
 			motion.y = JUMP_HEIGHT
-			
-	
-	#Ladder code
-	if ladder_on == true:
-		GRAVITY = 0
-		on_air_time = 0
-		
-		if Input.is_action_pressed("ui_up"):
-			motion.y = -SPEED
-		elif Input.is_action_pressed("ui_down"):
-			motion.y = SPEED
-		else:
-			motion.y = 0
-	else:
-		GRAVITY = 20
-		
-	
 	motion = move_and_slide(motion, UP)
 	pass
 	
@@ -134,13 +109,4 @@ func _physics_process(delta):
 func _on_Coin_body_entered(body):
 	coins+=1
 	print(coins)
-	pass # Replace with function body.
-
-func _on_Ladder_body_entered(body):
-	ladder_on = true
-	pass # Replace with function body.
-
-
-func _on_Ladder_body_exited(body):
-	ladder_on = false
 	pass # Replace with function body.
