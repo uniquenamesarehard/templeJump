@@ -27,7 +27,7 @@ var prev_jump_pressed = false
 
 var motion = Vector2()
 
-var ladder_on = false;
+var vine_on = false;
 var coins = 0
 
 func _physics_process(delta):
@@ -73,7 +73,7 @@ func _physics_process(delta):
 		
 		
 	# Integrate velocity into motion and move
-	if not ladder_on:
+	if not vine_on:
 		velocity = move_and_slide(velocity, Vector2(0, -1))
 	
 	if is_on_floor():
@@ -112,7 +112,7 @@ func _physics_process(delta):
 			
 	
 	#Ladder code
-	if ladder_on == true:
+	if vine_on == true:
 		GRAVITY = 0
 		on_air_time = 0
 		
@@ -136,11 +136,11 @@ func _on_Coin_body_entered(body):
 	print(coins)
 	pass # Replace with function body.
 
-func _on_Ladder_body_entered(body):
-	ladder_on = true
+func _on_Vine_body_entered(body):
+	vine_on = true
 	pass # Replace with function body.
 
 
-func _on_Ladder_body_exited(body):
-	ladder_on = false
+func _on_Vine_body_exited(body):
+	vine_on = false
 	pass # Replace with function body.
