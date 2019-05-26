@@ -1,9 +1,9 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://Block Final f10.png" type="Texture" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 31.8177, 31.817 )
+extents = Vector2( 55.9407, 12.2906 )
 
 [node name="Node2D" type="Node2D"]
 

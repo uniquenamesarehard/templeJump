@@ -40,9 +40,9 @@
 [ext_resource path="res://platform4.tscn" type="PackedScene" id=38]
 [ext_resource path="res://platform5.tscn" type="PackedScene" id=39]
 [ext_resource path="res://Coin.gd" type="Script" id=40]
-[ext_resource path="res://icon.png" type="Texture" id=41]
+[ext_resource path="res://coin.png" type="Texture" id=41]
 [ext_resource path="res://Gravity.gd" type="Script" id=42]
-[ext_resource path="res://lizardbase.png" type="Texture" id=43]
+[ext_resource path="res://lizardleft.png" type="Texture" id=43]
 [ext_resource path="res://floor 12.png" type="Texture" id=44]
 [ext_resource path="res://vine.png" type="Texture" id=45]
 
@@ -50,7 +50,7 @@
 radius = 32.2448
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 29.887, 59.2545 )
+extents = Vector2( 42.7469, 12.7573 )
 
 [sub_resource type="RectangleShape2D" id=3]
 extents = Vector2( 15.2211, 176.984 )
@@ -159,6 +159,7 @@ __meta__ = {
 }
 
 [node name="Special Floors" type="Node2D" parent="."]
+editor/display_folded = true
 
 [node name="10-1" parent="Special Floors" instance=ExtResource( 13 )]
 position = Vector2( 137.173, -2460.3 )
@@ -1265,7 +1266,8 @@ position = Vector2( 1701.15, 961.346 )
 position = Vector2( 1890.41, 961.35 )
 
 [node name="Node2D(10)2" parent="Platforms" instance=ExtResource( 35 )]
-position = Vector2( 983.031, 1081.17 )
+position = Vector2( 977.862, 1082.89 )
+scale = Vector2( 450, 0.14 )
 
 [node name="Node2D(10)3" parent="Platforms" instance=ExtResource( 35 )]
 position = Vector2( 1982.01, 712.137 )
@@ -1416,10 +1418,16 @@ position = Vector2( 408.722, 902.916 )
 script = ExtResource( 40 )
 
 [node name="Sprite" type="Sprite" parent="Collectables/Coin"]
+position = Vector2( 0.147827, 0.15625 )
+scale = Vector2( 0.214798, 0.214798 )
 texture = ExtResource( 41 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Collectables/Coin"]
 shape = SubResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="Collectables/Coin"]
+
+[node name="Sprite3" type="Sprite" parent="Collectables/Coin"]
 
 [node name="Player" type="Node" parent="."]
 
@@ -1432,16 +1440,12 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/KinematicBody2D"]
+position = Vector2( -19.1385, 44.2058 )
 shape = SubResource( 2 )
-__meta__ = {
-"_edit_lock_": true
-}
 
-[node name="Sprite" type="Sprite" parent="Player/KinematicBody2D"]
+[node name="Lizard" type="Sprite" parent="Player/KinematicBody2D"]
+position = Vector2( -3.75769, 47.3079 )
 texture = ExtResource( 43 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Camera2D" type="Camera2D" parent="Player/KinematicBody2D"]
 position = Vector2( -1.66699, 28.343 )
@@ -1479,7 +1483,6 @@ position = Vector2( 1043.11, -3530.38 )
 texture = ExtResource( 44 )
 
 [node name="Other Blocks" type="Node" parent="."]
-editor/display_folded = true
 
 [node name="Vine" type="Area2D" parent="Other Blocks"]
 position = Vector2( 1397.54, 549.79 )
@@ -1492,13 +1495,15 @@ texture = ExtResource( 45 )
 shape = SubResource( 3 )
 
 [node name="Vine2" type="Area2D" parent="Other Blocks"]
-position = Vector2( 970.47, 1047.62 )
+position = Vector2( 968.591, 1070.7 )
 scale = Vector2( 0.8, 0.5 )
 
 [node name="Sprite" type="Sprite" parent="Other Blocks/Vine2"]
+position = Vector2( -8.78967, -85.7644 )
 texture = ExtResource( 45 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Other Blocks/Vine2"]
+position = Vector2( -8.78986, -89.0422 )
 shape = SubResource( 3 )
 
 [node name="Vine3" type="Area2D" parent="Other Blocks"]
@@ -2089,6 +2094,7 @@ scale = Vector2( 0.8, 0.5 )
 texture = ExtResource( 45 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Other Blocks/Vine62"]
+position = Vector2( 0, 4.95117 )
 shape = SubResource( 3 )
 
 [node name="Vine63" type="Area2D" parent="Other Blocks"]
